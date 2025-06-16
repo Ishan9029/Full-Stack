@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function App4() {
+export default function App() {
   const handleSubmit = (event) => {
     event.preventDefault();
   };

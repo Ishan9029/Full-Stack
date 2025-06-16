@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 
-export default function App1() {
-  const [name, setName] = useState('');
-  const [password, setPassword] = useState('');
+export default function App() {
+  const [setName] = useState('');
+  const [setPassword] = useState('');
 
-  const handleSubmit = (event) => {
+  /*const handleSubmit = (event) => {
     event.preventDefault();
     alert(`Submitted name: ${name}`);
-  };
+  };*/
 
   return (
     <div>
       <h1>This is Controlled Component</h1>
-      <form onSubmit={handleSubmit}>
+      <form>
         <br />
         <input
           type="text"
